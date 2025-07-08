@@ -4,14 +4,19 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 
 // Dichiara la funzione qui.
-function parolaFiltrata (parola, letera ){
- const risultato = [];
+function parolaFiltrata (parole, lettera ){
+ const risultato= [];
  
-
-}
+ for (let i =0; i <parole.length; i++) {
+    if (parole[i][0] === lettera){
+    risultato.push(parole[i]);
+    }
+   }
+   return risultato;
+} 
 
 // Invoca la funzione qui e stampa il risultato in console
 
 
 
-//Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]
+//Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra*] 
