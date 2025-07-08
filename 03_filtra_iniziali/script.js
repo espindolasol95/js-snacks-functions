@@ -16,7 +16,7 @@ function parolaFiltrata (parole, lettera ){
 } 
 
 // Invoca la funzione qui e stampa il risultato in console
-
-
+const risultato= parolaFiltrata(names, "A");
+console.log(risultato);
 
 //Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra*] 
