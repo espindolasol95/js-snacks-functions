@@ -22,6 +22,8 @@ function contatoreVocali(stringa) {
 // Invoca la funzione qui e stampa il risultato in console
 
 
+const risultato = contatoreVocali(word);
+console.log(risultato);
 
 
 //Risultato atteso se si passa 'javascript': 3 (a, a, i)
