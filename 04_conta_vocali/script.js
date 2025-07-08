@@ -4,9 +4,14 @@ const word = 'javascript';
 
 
 // Dichiara la funzione qui.
-
+function contatoreVocali(striga) {
+  const vocali = ['a', 'e', 'i', 'o', 'u'];
+  let count = 0;
+   
+}
 
 // Invoca la funzione qui e stampa il risultato in console
+
 
 
 
