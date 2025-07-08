@@ -4,11 +4,20 @@ const word = 'javascript';
 
 
 // Dichiara la funzione qui.
-function contatoreVocali(striga) {
+function contatoreVocali(stringa) {
   const vocali = ['a', 'e', 'i', 'o', 'u'];
-  let count = 0;
+  let contatore = 0;
    
+
+  for (let i =0; i<stringa.length; i++)
+    if(vocali.includes (stringa [i]. toLowerCase())){
+        contatore ++;  //incrementa il contatore ogni volta che trova una vocale (prova)
+
+    }
+
+    return contatore;
 }
+
 
 // Invoca la funzione qui e stampa il risultato in console
 
