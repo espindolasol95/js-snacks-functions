@@ -8,7 +8,7 @@ function parolaFiltrata (parole, lettera ){
  const risultato= [];
  
  for (let i =0; i <parole.length; i++) {
-    if (parole[i][0] === lettera){
+    if (parole[i][0]. toLowerCase() === lettera. toLowerCase()){
     risultato.push(parole[i]);
     }
    }
